@@ -1,0 +1,24 @@
+# Environment files
+.env
+.env.*
+
+# AWS credentials
+.aws/
+
+# Private keys
+*.pem
+*.key
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+
+# Python
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
